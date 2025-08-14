@@ -1,3 +1,7 @@
+package model
+
+import "time"
+
 type Income struct {
 	Id     int       `json:"id"`
 	Date   time.Time `json:"data"`
